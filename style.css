@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.game-container {
+    width: 40%;
+    height: 40%;
+
+    margin-top: 1rem;
+
+    margin-bottom: 1rem;
+}
