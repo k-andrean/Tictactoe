@@ -3,6 +3,8 @@
     padding: 0;
 
     box-sizing: border-box;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .game-container {
@@ -11,5 +13,37 @@
 
     margin-top: 1rem;
 
+    margin-bottom: 1rem;
+
+    color: black;
+}
+
+.start + .start {
+    margin-top: 1rem;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+
+    margin-left: 1rem;
+
+    border: 2px solid blue;
+    font-size: 12px;
+
+    
+}
+
+.winner-text{
+    font-weight: 700;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.reset{
+
+    display: block;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
